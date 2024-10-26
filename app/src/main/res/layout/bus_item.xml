@@ -1,0 +1,59 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/busTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus Type: "
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:id="@+id/routeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Route: "
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:id="@+id/departureTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departure: "
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:id="@+id/seatsAvailableText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seats Available: "
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:id="@+id/priceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: $"
+            android:layout_marginTop="6dp"/>
+
+        <Button
+            android:id="@+id/bookSeatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Seat"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="120dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
