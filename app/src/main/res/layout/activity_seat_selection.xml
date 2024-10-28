@@ -54,7 +54,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="33.3"
-                    android:gravity="center">
+                    android:gravity="center"
+                    >
 
                     <ImageView
                         android:layout_width="16dp"
@@ -214,12 +215,14 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/seat_1A"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/booked_img" />
 
                     <ImageView
+                        android:id="@+id/seat_1B"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -234,12 +237,14 @@
                     android:gravity="center">
 
                     <ImageView
+                        android:id="@+id/seat_1C"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/booked_img" />
 
                     <ImageView
+                        android:id="@+id/seat_1D"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -273,12 +278,14 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/seat_2A"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/available_img" />
 
                     <ImageView
+                        android:id="@+id/seat_2B"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -293,12 +300,14 @@
                     android:gravity="center">
 
                     <ImageView
+                        android:id="@+id/seat_2C"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/booked_img" />
 
                     <ImageView
+                        android:id="@+id/seat_2D"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -331,12 +340,14 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/seat_3A"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/available_img" />
 
                     <ImageView
+                        android:id="@+id/seat_3B"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -351,12 +362,14 @@
                     android:gravity="center">
 
                     <ImageView
+                        android:id="@+id/seat_3C"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/available_img" />
 
                     <ImageView
+                        android:id="@+id/seat_3D"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -389,12 +402,14 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/seat_4A"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/available_img" />
 
                     <ImageView
+                        android:id="@+id/seat_4B"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -409,12 +424,14 @@
                     android:gravity="center">
 
                     <ImageView
+                        android:id="@+id/seat_4C"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/available_img" />
 
                     <ImageView
+                        android:id="@+id/seat_4D"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -447,12 +464,14 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/seat_5A"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/booked_img" />
 
                     <ImageView
+                        android:id="@+id/seat_5B"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -467,12 +486,14 @@
                     android:gravity="center">
 
                     <ImageView
+                        android:id="@+id/seat_5C"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/your_seat_img" />
 
                     <ImageView
+                        android:id="@+id/seat_5D"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -505,12 +526,14 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/seat_6A"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/available_img" />
 
                     <ImageView
+                        android:id="@+id/seat_6B"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -525,12 +548,14 @@
                     android:gravity="center">
 
                     <ImageView
+                        android:id="@+id/seat_6C"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/booked_img" />
 
                     <ImageView
+                        android:id="@+id/seat_6D"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -563,12 +588,14 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/seat_7A"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/booked_img" />
 
                     <ImageView
+                        android:id="@+id/seat_7B"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -583,12 +610,14 @@
                     android:gravity="center">
 
                     <ImageView
+                        android:id="@+id/seat_7C"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/available_img" />
 
                     <ImageView
+                        android:id="@+id/seat_7D"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -621,12 +650,14 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/seat_8A"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/available_img" />
 
                     <ImageView
+                        android:id="@+id/seat_8B"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -641,12 +672,14 @@
                     android:gravity="center">
 
                     <ImageView
+                        android:id="@+id/seat_8C"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/booked_img" />
 
                     <ImageView
+                        android:id="@+id/seat_8D"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -679,12 +712,14 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/seat_9A"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/booked_img" />
 
                     <ImageView
+                        android:id="@+id/seat_9B"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
@@ -699,12 +734,14 @@
                     android:gravity="center">
 
                     <ImageView
+                        android:id="@+id/seat_9C"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="4dp"
                         android:src="@drawable/booked_img" />
 
                     <ImageView
+                        android:id="@+id/seat_9D"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginStart="4dp"
